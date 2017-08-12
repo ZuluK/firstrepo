@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+h1 {
+  font-size: 2em;
+}
+nav {
+  background-color: lightblue;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+li {
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+  text-decoration: none;
+}
+a {
+  color: red;
+  text-decoration:none;
+}
+section {
+  background-color: white;
+  text-align: center;
+  display: table;
+}
+.box {
+  float: left;
+  width: 33.3333333%;
+
+}
+img {
+  width: 80%;
+}
+p {
+  background-color: white;
+  border: 10px solid white;
+  height: auto;
+  margin: auto;
+  paddig: 10px
+}

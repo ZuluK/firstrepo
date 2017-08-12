@@ -1,0 +1,25 @@
+li {
+  float: none;
+}
+
+ul {
+  text-align: center;
+  padding: 5px;
+}
+nav {
+  background-color: black;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
+nav li {
+  display: inline-block;
+}
+.navbar-header {
+  width: 100%;
+}
+a {
+  margin-left: 10px;
+}
+div.col-md-3 {
+  overflow: hidden;
+}

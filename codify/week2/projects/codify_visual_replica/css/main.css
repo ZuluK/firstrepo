@@ -1,0 +1,248 @@
+/* Changes all text font.*/
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+=======================================
+        NAV BAR
+=======================================
+*/
+
+/* horizontal rows change to visual box */
+hr {
+  border: 1px solid #c79852;
+  margin: 3% auto;
+  width: 7%;
+}
+/* changes nav elemnts position */
+nav {
+  margin: 0 1%;
+  padding: 1% 5%;
+}
+/* moves search icon inline with nav element */
+nav > div {
+ display: inline-block;
+}
+/* change anchor linke color to grey and removes underline */
+nav > div > a {
+  color: #464646;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* moves search box to right from float attribute */
+nav > div:last-child {
+  float: right;
+}
+/* removes border box and icon is show */
+nav input {
+  border: none;
+}
+
+
+/*
+=======================================
+   SECTION
+=======================================
+*/
+
+/* no noticeable chanes */
+section {
+  padding-bottom: 50px;
+}
+/* moves img and header to center of page */
+header {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+/* img changes to circle img and smaller size */
+header img {
+  border-radius: 50px;
+  height: 75px;
+  width: 75px;
+}
+/* changes to h1 font properties */
+header h1 {
+  color: #242424;
+  font-family: 'Lora', serif;
+  font-size: 60px;
+  letter-spacing: -1px;
+  line-height: 60px;
+  margin: 1% 0;
+}
+/* changes to h2 font properties, color grey, margin added */
+header h2 {
+  color: #5f5f5f;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 5% 0 3%;
+}
+/* no noticeable changes */
+header p {
+  font-size: 16px;
+  margin: 3% 0;
+}
+/* aligns section elements and images to center of page */
+section > div {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+/* changes to div p font color, size and alignment */
+section > div p {
+  color: #565656;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 15px;
+  margin: 3% 0;
+  text-align: left;
+}
+/* changes to person quote font style, weight and size, aligned to center */
+.personal-quote {
+  font-family: 'Petit Formal Script',cursive;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+/*
+=======================================
+   BOTTOM IMAGES
+=======================================
+
+
+/* text overlaps bottom img */
+.img-wrap {
+  height: 450px;
+}
+/* bottom images are floated left, img-wrap text doesn't overlap now */
+.img-wrap img {
+  float: left;
+}
+/* images are push to left, centered now */
+.img-wrap img:first-child {
+  margin-left: 9%;
+}
+/* adds space between stacked images */
+.img-wrap img:nth-child(n+2) {
+  margin-left: 7px;
+}
+/* add additional space to stacked images */
+.img-wrap img:last-child {
+  margin-top: 7px;
+}
+
+/*
+=======================================
+  FOOTER
+=======================================
+*/
+
+/* moves footer section to center of page */
+section > footer {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+/* changes color to grey */
+section > footer > div {
+  color: #565656;
+}
+/* change heart icon to color red */
+footer .fa-heart {
+  color: #e04f4a;
+  margin-bottom: 3%;
+}
+/* change to larger textarea */
+footer textarea {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-color: #e5e5e5;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0,.075);
+  color: #555;
+  font-size: 14px;
+  line-height: 1.42851743;
+  padding: 6px 12px;
+  width: 100%;
+}
+/* text is align to left */
+.button-group {
+  text-align: left;
+}
+/* changes background to white*/
+.button-group button {
+  border: none;
+  background: white;
+  color: #565656;
+  font-size: 12px;
+  padding: 0 5px 0 0;
+}
+/* floated to right */
+.button-group button:last-child {
+  float: right;
+  padding: 0;
+}
+/* no noticable changes */
+.button-group button:hover {
+  color: #5e5e5e;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+/* moves bottom footer elements aligned with comment box */
+body > footer {
+  background: #f8f9f9;
+  height: 200px;
+  padding: 0 20%;
+  position: relative;
+}
+/* no noticable changes */
+.previous-article,
+.next-article {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+}
+/* moves previous-article over next-article */
+.previous-article {
+  left: 20%;
+  position: absolute;
+}
+.previous-button {
+  text-align: left;
+}
+.next-article {
+  position: absolute;
+  right: 20%;
+}
+/* moves next-button to right of comment box */
+.next-button {
+  text-align: right;
+}
+/* add margin and moves next and previous-buttons down from comment box */
+.previous-button,
+.next-button {
+  margin: 10% 0;
+}
+/* removes underline on anchor, color change */
+.previous-button a,
+.next-button a {
+  color: #434345;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* adds margin */
+.previous-button p,
+.next-button p {
+  font-weight: normal;
+  margin: 3% 0;
+}

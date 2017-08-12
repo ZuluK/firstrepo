@@ -1,0 +1,25 @@
+.nav {
+  background-color: blue;
+  margin: 20px;
+  padding: 20px;
+}
+li {
+  background-color: white;
+  display: block;
+  padding: 20px;
+}
+.box {
+  float:left;
+  width: 50%;
+}
+img {
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+div p {
+  border: 2px;
+  background-color: teal;
+  padding: 20px;
+  margin: 20px;
+}

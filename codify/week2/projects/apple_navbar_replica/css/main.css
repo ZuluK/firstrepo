@@ -1,0 +1,39 @@
+.nav {
+  background-color: rgba(50, 50, 50, 1);
+  height: 45px;
+}
+
+ul {
+  text-align: center;
+  margin: -5px;
+}
+
+li {
+  display: inline-block;
+  font-weight: 300;
+  margin: 15px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(240, 240, 240, 1);
+  padding: 25px;
+  font-size: 14px;
+}
+.header {
+  text-align: center;
+  color: rgba(17, 17, 17, 1);
+}
+
+/* changes font size for main heading */
+.main {
+  font-size: 75px;
+  border: 0;
+
+}
+/* relative to parent element, moves text closer to header */
+.sub {
+ font-size: 30px;
+ bottom: 50px;
+ position: relative;
+}

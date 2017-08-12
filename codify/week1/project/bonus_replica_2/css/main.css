@@ -1,0 +1,288 @@
+
+/* font change to 'Lato' for all text */
+* {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  margin: 0;
+}
+
+/* navigation bar color lightblute */
+.navigation {
+  background-color: #f6f9f9;
+  padding: 25px 100px;
+}
+
+/* CALL TO ACTION SECTION */
+
+/* aligns text to center, adds background image */
+#cta {
+  background-image: url(../img/bg1.png);
+  height: 800px;
+  text-align: center;
+}
+/* changes h1 element, color white, large font and aligned to the center */
+#cta h1 {
+  color: #ffffff;
+  font-size: 120px;
+  font-weight: 700px;
+  line-height: 47px;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding-top: 225px;
+  text-align: center;
+}
+/* adds border under h1 element text */
+#cta hr {
+  border-color: #15a4fa;
+  margin: 0 auto;
+  width: 50%;
+}
+/* h2 element changes. color white. font changes weight and height */
+#cta h2 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 47px;
+  text-align: center;
+}
+/* call to action button is transparent. border top and left color light blue */
+#cta button {
+  background-color: transparent;
+  border-right: transparent;
+  border-bottom: transparent;
+  border-top: 1px solid #15a4fa;
+  border-left: 1px solid #15a4fa;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+/* no noticeable changes */
+#cta a {
+  color: #fff;
+  display: inline-block;
+  margin-top: :100px;
+}
+
+/*
+=======================================
+INFO SECTION
+=======================================
+*/
+
+/* text is center with lightgrey background color. padding on text */
+#info {
+  background-color: #f6f9f9;
+  padding: 50px;
+  text-align: center;
+}
+/* color change to h1 element and larger text size */
+#info h1 {
+  color: #2d3950;
+  font-size: 40px;
+  font-weight: 400;
+}
+/* text color change to grey and line height change */
+#info p {
+  color: #999999;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 auto;
+  width: 74%;
+}
+
+
+/*
+=======================================
+FEATURES SECTION
+=======================================
+*/
+
+/* aligns all elements */
+#features {
+  text-align: center;
+}
+/* elements displayed inline features */
+#features .box {
+  display: inline-block;
+  font-weight: 400;
+  margin: 5% 1%;
+  padding: 10px;
+  width: 21%;
+}
+/* icon box size increase, color gradient added */
+#features .iconBox {
+  background: linear-gradient(to right,  #1e5799 0%, #207cca 50%, #2989d8 50%, #7db9e8 100%);
+  height: 100px;
+  margin: 0 auto;
+  width: 100%;
+}
+/* color change on box icon to white and size increase */
+#features i {
+  color: #fff;
+  display: block;
+  font-size: 40px;
+  padding-top: 25px;
+  width: 100%;
+}
+/* no noticeable changes */
+#features h3 {
+  color: #2d3950;
+  font-size: 22px;
+  margin-bottom: 3%;
+}
+/* p element color change to lightgrey text and font size changes */
+#features p {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+/* no noticeable changes */
+.fa-mobile {
+  font-size: 55px;
+}
+/* no noticeable changes */
+.fa-paper-plane-o {
+  font-size: 50px;
+}
+/* no noticeable changes */
+.fa-bullhorn {
+  font-size: 50px;
+}
+
+/*
+=======================================
+WORK SECTION
+=======================================
+*/
+
+/* work section text aligned to center,lightblue background color */
+#work {
+  background-color: #f6f9f9;
+  font-weight: 400;
+  padding: 50px 0;
+  text-align: center;
+}
+/* work header color change and larger font size */
+#work h3 {
+  color: #2d3950;
+  font-size: 41px;
+  margin-left: 0;
+}
+/* work paragraph color change */
+#work p {
+  color: #909090;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+}
+/* inline block of images */
+#work .box {
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 2% 1% 0%;
+  padding: 10px;
+  width: 25%;
+}
+/* adds spacing between each image */
+#work img {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+}
+
+/*
+=======================================
+CONTACT SECTION
+=======================================
+*/
+
+/* adds background image, aligns text to center */
+#contact {
+  background-image: url(../img/bg2.png);
+  background-position: 50%;
+  height: 500px;
+  padding: 100px;
+  text-align: center;
+}
+/* color change to white, larger font size */
+#contact h3 {
+  color: #ffffff;
+  font-size: 41px;
+  font-weight: 400;
+  margin: 7% 0 0;
+}
+/* changes to color, lightgrey */
+#contact p {
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+}
+/* add larger box input to form area, block element */
+form > input,
+form > textarea {
+  background-color: transparent;
+  border-radius: 2px;
+  border: 1px solid #f6f9f9;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 30%;
+}
+/* white text color and larger text size */
+form span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* button is transparent with blue border */
+form button {
+  background-color: transparent;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  margin: 25px 0  0 50px;
+  padding: 10px 25px;
+}
+
+/*
+=======================================
+FOOTER
+=======================================
+*/
+
+/* footer text shift to left and padding added */
+.footer {
+  background-color: #f6f9f9;
+  padding: 10px;
+  height: 50px;
+  padding-left: 50px;
+}
+/* footer text shift to left and icon box shift to top of copyright text */
+.footer p {
+  float:left;
+  margin-left: 75px;
+}
+/* shifts social media icons to the right */
+#socialMedia {
+  float: right;
+  margin: 20px 75px 0 0;
+}
+/* social media icon are larger box type shape, carolina blute color */
+#socialMedia a {
+  border-radius: 2px;
+  background-color: #15a4fa;
+  color: white;
+  margin: 5px;
+  padding: 7px;
+  text-decoration: none;
+}
+#socialMedia a:first-child {
+  padding: 7px 9px;
+}
